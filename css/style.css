@@ -39,6 +39,10 @@ menu {
     width: 20%;
 }
 
+.col-40 {
+    width: 40%;
+}
+
 .col-60 {
     width: 60%;
 }
@@ -56,6 +60,10 @@ menu {
 
 .bg-purple {
     background: purple;
+}
+
+.bg-grey{
+    background: grey;
 }
 
 /* section 1 */
@@ -77,10 +85,17 @@ menu {
 .debug [class^="col"] {
     border: 1px dotted red;
     padding: 10px;
-    background-color: rgb(210, 195, 107);
 }
 
 .debug .big-content{
     background-color: lightblue;
+}
+
+.debug header .row [class^="col"] {
+    background-color: #DAA520;
+}
+
+.debug .min-height {
+    min-height: 200px;
 }
 
