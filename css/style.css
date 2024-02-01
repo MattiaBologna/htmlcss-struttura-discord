@@ -47,6 +47,14 @@ menu {
     width: 60%;
 }
 
+.col-1 {
+    width: calc(100% / 6);
+}
+
+.col-2 {
+    width: calc((100% / 6) * 2);
+}
+
 .big-content {
     min-height: 200px;
 }
@@ -65,6 +73,20 @@ menu {
 .bg-grey{
     background: grey;
 }
+
+.bg-green{
+    background: green;
+}
+
+.bg-lightgrey{
+    background: lightgrey;
+}
+
+.bg-red{
+    background: red;
+}
+
+
 
 /* section 1 */
 
@@ -97,5 +119,9 @@ menu {
 
 .debug .min-height {
     min-height: 200px;
+}
+
+.debug .bigger-content {
+    min-height: 400px;
 }
 
