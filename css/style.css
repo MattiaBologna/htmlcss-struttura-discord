@@ -29,6 +29,9 @@ menu {
 
 .row {
     display: flex;
+}
+
+.row [class^="col"]{
     justify-content: space-between;
 }
 
@@ -39,6 +42,23 @@ menu {
 .col-60 {
     width: 60%;
 }
+
+.big-content {
+    min-height: 200px;
+}
+
+
+/* STYLE */
+
+.bg-blue {
+    background: lightblue;
+}
+
+.bg-purple {
+    background: purple;
+}
+
+/* section 1 */
 
 
 
@@ -60,6 +80,7 @@ menu {
     background-color: rgb(210, 195, 107);
 }
 
-.debug .background-blue {
-    background-color: rgb(146, 146, 218);
+.debug .big-content{
+    background-color: lightblue;
 }
+
