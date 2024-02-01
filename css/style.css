@@ -57,14 +57,19 @@ menu {
 }
 
 
+
 /* STYLE */
 
+.bg-lightblue {
+    background-color: #ADD8E6;
+}
+
 .bg-blue {
-    background: lightblue;
+    background-color: #1E90FF;
 }
 
 .bg-purple {
-    background: purple;
+    background-color: #00008B;
 }
 
 .bg-pink{
@@ -72,23 +77,27 @@ menu {
 }
 
 .bg-grey{
-    background: grey;
+    background-color: #FFC0CB;
 }
 
 .bg-green{
-    background: green;
+    background-color: #228B22;
 }
 
 .bg-lightgrey{
-    background: lightgrey;
+    background-color: #D3D3D3;
 }
 
 .bg-red{
-    background: red;
+    background-color: #F08080;
+}
+
+.bg-boh {
+    background-color: #7FFFD4;
 }
 
 .bg-darkgrey{
-    background: rgb(74, 74, 74);
+    background-color: #23272A;
 }
 
 .justify-between {
