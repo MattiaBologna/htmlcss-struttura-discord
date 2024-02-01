@@ -86,10 +86,13 @@ menu {
     background: red;
 }
 
+.bg-darkgrey{
+    background: rgb(74, 74, 74);
+}
 
-
-/* section 1 */
-
+footer .row {
+    justify-content: space-between;
+}
 
 
 /* DEBUG */
@@ -124,4 +127,5 @@ menu {
 .debug .bigger-content {
     min-height: 400px;
 }
+
 
