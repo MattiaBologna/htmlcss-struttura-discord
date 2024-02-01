@@ -27,6 +27,11 @@ menu {
     margin: 0 auto;
 }
 
+.row {
+    display: flex;
+    justify-content: space-between;
+}
+
 
 
 /* DEBUG */
@@ -35,3 +40,9 @@ menu {
     border: 2px solid red;
     padding: 20px;
 }
+
+.debug .row {
+    border: 2px solid black;
+    padding: 20px
+}
+
